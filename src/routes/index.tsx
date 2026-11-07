@@ -183,7 +183,6 @@ const artists = [
   { name: "Call Me by Your Name", img: "/artists/cmbyn.jpg" },
   { name: "BDK", img: "/artists/bdk.jpg" },
   { name: "Maurice Ravel", img: "/artists/maurice-ravel.jpg" }
-*/
 ];
 
 const animes = [
