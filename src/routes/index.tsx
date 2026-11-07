@@ -89,7 +89,7 @@ function playTone(
   });
 }
 
-/** Short neutral click for ordinary buttons (about me, get in touch, contact links, ...) */
+/** Short neutral click for ordinary buttons (about us, get in touch, contact links, ...) */
 function playClickSfx() {
   playTone([720], { duration: 0.07, type: "triangle", gain: 0.05 });
 }
@@ -243,8 +243,8 @@ const projects = [
 ];
 
 const contacts = [
-  { platform: "Telegram", handle: "Andrew Young", href: "https://t.me/andrewstoreid", icon: Zap },
-    { platform: "Telegram", handle: "Luke Davis", href: "https://t.me/mafuyusatoo", icon: Zap },
+  { platform: "Telegram", handle: "Andrew", href: "https://t.me/andrewstoreid", icon: Zap },
+    { platform: "Telegram", handle: "Luke", href: "https://t.me/mafuyusatoo", icon: Zap },
   { platform: "Instagram", handle: "Andrew & Luke", href: "https://instagram.com/andrew_store0", icon: Instagram },
   { platform: "WhatsApp", handle: "Andrew", href: "https://wa.me/6281929972432", icon: Smartphone },
     { platform: "WhatsApp", handle: "Luke", href: "https://wa.me/31687593822", icon: Smartphone },
@@ -523,7 +523,7 @@ function HomeSection({ scrollTo }: { scrollTo: (id: string) => void }) {
               className="font-hero font-bold leading-[0.95] text-5xl sm:text-6xl lg:text-7xl uppercase transition-colors duration-500"
               style={{ color: "var(--c-soft-pink)" }}
             >
-              Kayzi-Dev
+              Andrewvy-Dev
             </h1>
           </div>
           <div className="mt-6 inline-flex flex-wrap items-center gap-2 font-mono text-xs sm:text-sm tracking-[0.2em] uppercase bg-cream border border-ink/10 sticker rounded-full px-4 py-2">
@@ -546,7 +546,7 @@ function HomeSection({ scrollTo }: { scrollTo: (id: string) => void }) {
               onClick={() => scrollTo("about")}
               className="group inline-flex items-center gap-2 bg-ink text-cream rounded-full px-6 py-3 font-display font-semibold text-sm uppercase tracking-wide hover-pop shine sticker pulse-ring"
             >
-              About Me
+              About Us
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -581,31 +581,31 @@ function AboutSection() {
     <section id="about" className="relative max-w-[1440px] mx-auto px-5 xl:px-10 py-20">
       <div className="tape w-28 rotate-3 -top-3 left-[10%]" />
       <div className="relative">
-        <p className="fig-label mb-3">FIG.02 — ABOUT ME</p>
+        <p className="fig-label mb-3">FIG.02 — ABOUT US</p>
         <div className="grid md:grid-cols-[1fr_1.4fr] gap-6">
           <Reveal from="left" className="bg-pastel-yellow border border-ink/10 rounded-blob sticker p-6 flex flex-col justify-between rotate-[-1deg] hover-pop">
             <Sparkle className="w-7 h-7 floaty" style={rotStyle("0deg")} />
             <div>
               <p className="font-display font-bold text-2xl uppercase leading-tight mt-6">
-                Kayz
+                Andrew & Luke
               </p>
               <p className="font-mono text-xs uppercase tracking-[0.2em] text-ink-soft mt-2">
-                Independent Developer
+                Lovely Developer
               </p>
             </div>
             <p className="font-mono text-xs uppercase tracking-[0.2em] text-ink-soft mt-6">
-              Dream, Build, Break, Repeat
+              Dream, Build, Break, Sleep, Cuddle, Repeat
             </p>
           </Reveal>
           <Reveal from="right" delay={120} className="bg-cream border border-ink/10 rounded-blob sticker p-8 halftone relative rotate-[1deg] hover-pop shine">
             <div className="absolute -top-4 -left-4 bg-soft-pink rounded-full p-2 text-ink">
               <Quote className="w-5 h-5 bounce-soft" />
             </div>
-            <h2 className="font-display font-bold text-3xl sm:text-4xl uppercase mb-4">About Me</h2>
+            <h2 className="font-display font-bold text-3xl sm:text-4xl uppercase mb-4">About Us</h2>
             <p className="text-ink-soft text-base sm:text-lg leading-relaxed">
-              Halo! Saya KayzImagine / AltOffx (Satria Trunk Wisnu), developer independen yang fokus di WhatsApp bot
-              (Baileys), React, dan sistem digital custom. Suka bikin hal yang aneh tapi berfungsi,
-              dan terus belajar tiap hari. Mari terhubung dan ngobrol soal project.
+              Halo! Kami Adalah Andrew Dan Luke (Not Real Name), andrew adalah developer lovely yang fokus di WhatsApp bot
+              (Baileys & Zapo), dan bisa main gitar (kunci dasar). luke adalah pacar andrew, aku sudah bersama andrew sejak 15 agustus 2025 dan aku
+               yang ngerjain translate manhwa (kadang di bantu).
             </p>
           </Reveal>
         </div>
@@ -832,7 +832,7 @@ function ContactSection() {
         Let&apos;s Connect
       </SectionHeading>
       <p className="text-ink-soft text-base sm:text-lg max-w-xl mb-10">
-        Hubungi saya melalui platform di bawah ini.
+        Hubungi kami melalui platform di bawah ini.
       </p>
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {contacts.map(({ platform, handle, href, icon: Icon }, i) => (
@@ -981,7 +981,7 @@ function Index() {
       <header className="sticky top-0 z-30 bg-cream/80 backdrop-blur-md border-b border-ink/10">
         <div className="max-w-[1440px] mx-auto px-5 xl:px-10 py-4 flex items-center justify-between">
           <a href="#home" onClick={(e) => { e.preventDefault(); scrollTo("home"); }} className="font-display font-bold text-lg uppercase tracking-wide">
-            STAR STUDIO CODE
+            ANDREW AND LUKE
           </a>
           <nav className="flex items-center gap-2 overflow-x-auto no-scrollbar">
             {navItems.map(({ id, label, icon }) => (
