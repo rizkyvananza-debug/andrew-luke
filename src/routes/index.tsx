@@ -495,13 +495,13 @@ function HomeSection({ scrollTo }: { scrollTo: (id: string) => void }) {
           <div className="polaroid w-[280px] sm:w-[340px] rotate-[-3deg]">
             <img
               src="/hero-photo.jpg"
-              alt="AltOffx"
+              alt="Andrew & Luke"
               loading="eager"
               fetchPriority="high"
               className="w-full h-[360px] sm:h-[420px] object-cover rounded-sm"
             />
             <div className="absolute bottom-5 left-0 right-0 text-center fig-label">
-              ALTOFFX— INDEPENDENT DEVELOPER
+              ANDREW & LUKE - LOVELY DEVELOPER
             </div>
           </div>
           <div className="absolute -bottom-6 -right-4 bg-pastel-yellow border border-ink/10 sticker px-4 py-2 rounded-xl rotate-6 font-display font-bold text-sm flex items-center gap-2 floaty-fast">
@@ -513,7 +513,7 @@ function HomeSection({ scrollTo }: { scrollTo: (id: string) => void }) {
         <Reveal from="right" delay={120}>
           <p className="fig-label mb-3">FIG.01 — INTRODUCTION</p>
           <h1 className="font-display font-bold leading-[0.95] text-5xl sm:text-6xl lg:text-5xl uppercase">
-            Satria Trunk Wisnu
+            Andrew & Luke
           </h1>
           <div
             className="inline-block mt-3 px-5 py-2 rounded-2xl border transition-colors duration-500"
