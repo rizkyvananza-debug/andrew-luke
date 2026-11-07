@@ -175,6 +175,7 @@ const hobbies = [
 ];
 
 const artists = [
+/*
   { name: "Faye Webster", img: "/artists/faye-webster.jpg" },
   { name: "Cocteau Twins", img: "/artists/cocteau-twins.jpg" },
   { name: "Mitski", img: "/artists/mitski.jpg" },
