@@ -501,7 +501,7 @@ function HomeSection({ scrollTo }: { scrollTo: (id: string) => void }) {
               className="w-full h-[360px] sm:h-[420px] object-cover rounded-sm"
             />
             <div className="absolute bottom-5 left-0 right-0 text-center fig-label">
-              ANDREW & LUKE - LOVELY DEVELOPER
+              ANDREW & LUKE-LOVELY DEVELOPER
             </div>
           </div>
           <div className="absolute -bottom-6 -right-4 bg-pastel-yellow border border-ink/10 sticker px-4 py-2 rounded-xl rotate-6 font-display font-bold text-sm flex items-center gap-2 floaty-fast">
